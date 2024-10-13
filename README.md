@@ -94,7 +94,7 @@ Visualizing the results is essential for assessing model performance and underst
 ### Best Fitness vs. Generation Graph  
 This graph illustrates the relationship between the best fitness values achieved and the number of generations during the model training process. A well-defined trend can indicate the convergence of the model.
 
-![Best Fitness vs. Generation](images/best_fitness_vs_generation.png)
+![Best Fitness vs. Generation](images/best_fitness_vs_generation.jpeg)
 
 
 ---
