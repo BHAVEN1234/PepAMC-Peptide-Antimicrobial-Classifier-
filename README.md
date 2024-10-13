@@ -1,3 +1,4 @@
+
 # 🚀 Peptide-Antimicrobial-Classifier  
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white)  
@@ -32,12 +33,12 @@ By utilizing datasets such as **Wine** and **Iris**, this project demonstrates t
 ---
 
 ## 🛠️ Built With  
-- ![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white) **Python**  
-- ![scikit-learn](https://img.shields.io/badge/scikit--learn-orange?logo=scikitlearn&logoColor=white) **scikit-learn**  
-- ![NumPy](https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=white) **NumPy**  
-- ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?logo=plotly&logoColor=white) **Matplotlib**  
-- ![Seaborn](https://img.shields.io/badge/Seaborn-3776AB?logo=python&logoColor=white) **Seaborn**  
-- ![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter&logoColor=white) **Jupyter Notebook**
+- **Python**  
+- **scikit-learn**  
+- **NumPy**  
+- **Matplotlib**  
+- **Seaborn**  
+- **Jupyter Notebook**
 
 ---
 
@@ -53,17 +54,36 @@ By utilizing datasets such as **Wine** and **Iris**, this project demonstrates t
 ## 🚀 Getting Started  
 
 ### 🔧 Prerequisites  
-Make sure you have the following tools installed:  
-- ![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white) **Python 3.x**  
-- ![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter&logoColor=white) **Jupyter Notebook** or **Spyder**  
+To run this project, you need the following tools and libraries installed:  
+
+1. **Python 3.x**  
+   Make sure Python is installed. You can download it [here](https://www.python.org/downloads/).  
+
+2. **Jupyter Notebook**  
+   Recommended for running and experimenting with code. Install it via:  
+   ```bash
+   pip install notebook
+   ```
+
+3. **Required Python Libraries**  
+   Install all necessary libraries by running:  
+   ```bash
+   pip install scikit-learn numpy matplotlib seaborn
+   ```
+
+4. **Dataset (Wine/Iris)**  
+   Ensure access to the **Wine** or **Iris** datasets, which are available through scikit-learn:  
+   ```python
+   from sklearn.datasets import load_wine, load_iris
+   ```
 
 ---
 
 ## 🛠️ Usage  
-1. Load the dataset (e.g., **Wine** or **Iris**).  
-2. Preprocess the data using scaling tools like `MinMaxScaler` or `StandardScaler`.  
-3. Train and evaluate the models (Logistic Regression or SVM).  
-4. Visualize results using plots to assess model performance.
+Load the dataset (e.g., Wine or Iris).  
+Preprocess the data using scaling tools like `MinMaxScaler` or `StandardScaler`.  
+Train and evaluate the models (Logistic Regression or SVM).  
+Visualize results using plots to assess model performance.
 
 ---
 
@@ -97,8 +117,8 @@ Contributions are welcome! Follow these steps to contribute:
 
 ## 📧 Contact  
 
-- **Bhaven**: bchheda@calstatela.edu  
-- **Tirth**: tshah6@calstatela.edu  
+**Bhaven**: bchheda@calstatela.edu  
+**Tirth**: tshah6@calstatela.edu  
 
 ---
 
