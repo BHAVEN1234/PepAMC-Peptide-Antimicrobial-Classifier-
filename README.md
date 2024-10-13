@@ -9,17 +9,17 @@
 ---
 
 ## 📋 Table of Contents  
-- [About The Project](#-about-the-project)  
-- [Built With](#-built-with)  
-- [Features](#-features)  
-- [Getting Started](#-getting-started)  
-  - [Prerequisites](#prerequisites)  
-- [Usage](#-usage)  
-- [Results](#-results)  
-- [License](#-license)  
-- [Contributing](#-contributing)  
-- [Contact](#-contact)  
-- [Acknowledgments](#-acknowledgments)  
+- [🧐 About The Project](#-about-the-project)  
+- [🛠️ Built With](#-built-with)  
+- [🌟 Features](#-features)  
+- [🚀 Getting Started](#-getting-started)  
+  - [🔧 Prerequisites](#prerequisites)  
+- [🛠️ Usage](#-usage)  
+- [📊 Results](#-results)  
+- [📜 License](#-license)  
+- [🤝 Contributing](#-contributing)  
+- [📧 Contact](#-contact)  
+- [📌 Acknowledgments](#-acknowledgments)  
 
 ---
 
@@ -52,7 +52,7 @@ By utilizing datasets such as **Wine** and **Iris**, this project demonstrates t
 
 ## 🚀 Getting Started  
 
-### Prerequisites  
+### 🔧 Prerequisites  
 Make sure you have the following tools installed:  
 - **Python 3.x**  
 - An IDE like **Jupyter Notebook** or **Spyder**  
