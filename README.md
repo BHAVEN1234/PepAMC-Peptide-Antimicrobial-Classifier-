@@ -7,19 +7,20 @@
 **An innovative tool leveraging machine learning to classify peptides for antimicrobial activity, offering enhanced insights for scientific research.**  
 
 ---
+
 ## 📋 Table of Contents  
-- [🧐 About The Project](#about-the-project)  
-- [🛠️ Built With](#built-with)  
-- [🌟 Features](#features)  
-- [🚀 Getting Started](#getting-started)  
-  - [🔧 Prerequisites](#prerequisites)  
-  - [⚙️ Installation](#installation)  
-- [🛠️ Usage](#usage)  
-- [📊 Results](#results)  
-- [📜 License](#license)  
-- [🤝 Contributing](#contributing)  
-- [📧 Contact](#contact)  
-- [📌 Acknowledgments](#acknowledgments)  
+- [About The Project](#-about-the-project)  
+- [Built With](#-built-with)  
+- [Features](#-features)  
+- [Getting Started](#-getting-started)  
+  - [Prerequisites](#prerequisites)  
+- [Usage](#-usage)  
+- [Results](#-results)  
+- [License](#-license)  
+- [Contributing](#-contributing)  
+- [Contact](#-contact)  
+- [Acknowledgments](#-acknowledgments)  
+
 ---
 
 ## 🧐 About The Project  
@@ -96,8 +97,8 @@ Contributions are welcome! Follow these steps to contribute:
 
 ## 📧 Contact  
 
-**Bhaven bchheda@calstatela.edu
-  Tirth tshah6@calstatela.edu **  
+**Bhaven**: bchheda@calstatela.edu  
+**Tirth**: tshah6@calstatela.edu  
 
 ---
 
