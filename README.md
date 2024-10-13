@@ -97,7 +97,8 @@ Contributions are welcome! Follow these steps to contribute:
 
 ## 📧 Contact  
 
-**Bhaven And Tirth**  
+**Bhaven bchheda@calstatela.edu
+  Tirth tshah6@calstatela.edu **  
 
 ---
 
