@@ -60,10 +60,31 @@ Make sure you have the following tools installed:
 Install the required packages by running:  
 ```bash
 pip install scikit-learn numpy matplotlib seaborn
----
 
-## 🛠️ Usage
--**Load the dataset (e.g., Wine or Iris).
--**Preprocess the data using scaling tools.
--**Train and evaluate the models (Logistic Regression or SVM).
--**Visualize results using plots to assess model performance.
+🛠️ Usage
+Load the dataset (e.g., Wine or Iris).
+Preprocess the data using scaling tools like MinMaxScaler or StandardScaler.
+Train and evaluate the models (Logistic Regression or SVM).
+Visualize results using plots to assess model performance.
+📊 Results
+Visualize your results using Seaborn and Matplotlib. These visualizations can highlight important features and assess model accuracy. Example plots include:
+
+Confusion Matrix
+Feature Importance Plot
+MCC vs. Accuracy Graph
+📜 License
+This project is licensed under the MIT License. See the LICENSE file for more details.
+
+🤝 Contributing
+Contributions are welcome! Follow these steps to contribute:
+
+Fork the repository
+Create your feature branch (git checkout -b feature/AmazingFeature)
+Commit your changes (git commit -m 'Add AmazingFeature')
+Push to the branch (git push origin feature/AmazingFeature)
+Open a pull request
+📧 Contact
+Bhaven Sanjaybhai Chheda
+
+📌 Acknowledgments
+Special thanks to the Python, scikit-learn, and Matplotlib communities for their amazing tools that power this project.
