@@ -14,14 +14,14 @@
 - [🛠️ Built With](#-built-with)  
 - [🌟 Features](#-features)  
 - [🚀 Getting Started](#-getting-started)  
-  - [🔧 Prerequisites](#-prerequisites)
-  - [📦 Install Dependencies](#install-dependencies)
-- [🛠️ Usage](#-usage)  
-- [📊 Results](#-results)  
-- [📜 License](#-license)  
-- [🤝 Contributing](#-contributing)  
-- [📧 Contact](#-contact)  
-- [📌 Acknowledgments](#-acknowledgments)  
+  - [🔧 Prerequisites](#prerequisites)  
+  - [📦 Install Dependencies](#install-dependencies)  
+- [🛠️ Usage](#usage)  
+- [📊 Results](#results)  
+- [📜 License](#license)  
+- [🤝 Contributing](#contributing)  
+- [📧 Contact](#contact)  
+- [📌 Acknowledgments](#acknowledgments)
 
 ---
 
