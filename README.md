@@ -60,6 +60,7 @@ Make sure you have the following tools installed:
 Install the required packages by running:  
 ```bash
 pip install scikit-learn numpy matplotlib seaborn
+---
 
 ## 🛠️ Usage
 -**Load the dataset (e.g., Wine or Iris).
