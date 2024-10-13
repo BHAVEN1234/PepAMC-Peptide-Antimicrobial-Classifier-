@@ -60,3 +60,9 @@ Make sure you have the following tools installed:
 Install the required packages by running:  
 ```bash
 pip install scikit-learn numpy matplotlib seaborn
+
+## 🛠️ Usage
+-**Load the dataset (e.g., Wine or Iris).
+-**Preprocess the data using scaling tools.
+-**Train and evaluate the models (Logistic Regression or SVM).
+-**Visualize results using plots to assess model performance.
