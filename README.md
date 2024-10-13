@@ -33,12 +33,12 @@ By utilizing datasets such as **Wine** and **Iris**, this project demonstrates t
 ---
 
 ## 🛠️ Built With  
-- **Python**  
-- **scikit-learn**  
-- **NumPy**  
-- **Matplotlib**  
-- **Seaborn**  
-- **Jupyter Notebook**
+- ![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white) **Python**  
+- ![scikit-learn](https://img.shields.io/badge/scikit--learn-0.24.2-green?logo=scikit-learn&logoColor=white) **scikit-learn**  
+- ![NumPy](https://img.shields.io/badge/NumPy-1.21.0-red?logo=numpy&logoColor=white) **NumPy**  
+- ![Matplotlib](https://img.shields.io/badge/Matplotlib-3.4.2-orange?logo=matplotlib&logoColor=white) **Matplotlib**  
+- ![Seaborn](https://img.shields.io/badge/Seaborn-0.11.1-yellow?logo=seaborn&logoColor=white) **Seaborn**  
+- ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter&logoColor=white) **Jupyter Notebook**
 
 ---
 
@@ -118,7 +118,7 @@ Contributions are welcome! Follow these steps to contribute:
 ## 📧 Contact  
 
 - **Jesus Armando Beltran Verdugo**: [abeltr99@calstatela.edu](mailto:abeltr99@calstatela.edu)  
-- **Bhaven Sanjaybhai Chheda**: [bchheda@calstatela.edu](mailto:bchheda@calstatela.edu)  
+- **Bhaven Chheda**: [bchheda@calstatela.edu](mailto:bchheda@calstatela.edu)  
 - **Tirth Shah**: [tshah6@calstatela.edu](mailto:tshah6@calstatela.edu)  
 
 ---
