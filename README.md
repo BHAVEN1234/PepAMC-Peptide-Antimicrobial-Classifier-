@@ -1,65 +1,62 @@
-Peptide-Antimicrobial-Classifier
+# 🚀 Peptide-Antimicrobial-Classifier  
 
-An effective classifier built using machine learning techniques to predict and analyze peptide-based antimicrobial activity.
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white)  
+![MIT License](https://img.shields.io/badge/License-MIT-green.svg)  
+![Status](https://img.shields.io/badge/Status-Active-brightgreen)  
 
-📊 About The Project
-This project aims to classify peptides for antimicrobial activity using various machine learning models, such as Logistic Regression and Support Vector Machines (SVM). It employs datasets like Wine and Iris to explore feature selection techniques and model optimization, ensuring reliable antimicrobial predictions.
+**An innovative tool leveraging machine learning to classify peptides for antimicrobial activity, offering enhanced insights for scientific research.**  
 
-The classifier is built to assist researchers and developers in identifying potentially useful antimicrobial peptides, providing a crucial tool in the fight against drug-resistant pathogens.
+---
 
-🚀 Built With
-Python
-scikit-learn
-NumPy
-Matplotlib
-Seaborn
-🔧 Features
-Supports multiple classifiers (Logistic Regression, SVM).
-Utilizes feature scaling with MinMaxScaler and StandardScaler.
-Cross-validation with StratifiedKFold for robust evaluation.
-Calculates important metrics like Accuracy and Matthews Correlation Coefficient (MCC).
-🛠️ Getting Started
-Prerequisites
-Before running the project, ensure you have the following installed:
+## 📋 Table of Contents  
+- [About The Project](#about-the-project)  
+- [Built With](#built-with)  
+- [Features](#features)  
+- [Getting Started](#getting-started)  
+  - [Prerequisites](#prerequisites)  
+  - [Installation](#installation)  
+- [Usage](#usage)  
+- [Results](#results)  
+- [License](#license)  
+- [Contributing](#contributing)  
+- [Contact](#contact)  
 
-Python 3.x
+---
 
-Jupyter Notebook or any preferred IDE (e.g., Spyder)
+## 🧐 About The Project  
 
-Install necessary libraries using:
+Many websites and systems rely on secure applications to prevent **cyber-attacks** through open ports and vulnerable services. This project applies **machine learning models** to predict and classify peptide-based antimicrobial activity, empowering researchers to identify peptides that may prevent infections from resistant pathogens.
 
-bash
-Copy code
-pip install scikit-learn matplotlib seaborn numpy
-Installation
-Clone the repository:
-bash
-Copy code
-git clone https://github.com/your-username/peptide-antimicrobial-classifier.git
-Navigate to the project directory:
-bash
-Copy code
-cd peptide-antimicrobial-classifier
-Open the notebook:
-bash
-Copy code
-jupyter notebook Week3_Tirth__Bhaven_Work.ipynb
-📈 Usage
-Load your dataset (like Wine or Iris) within the notebook.
-Preprocess the data using the built-in scaling techniques.
-Train the models with Logistic Regression or SVM.
-Evaluate the models using accuracy score and MCC metrics.
-📊 Results
-The results can be visualized using Matplotlib and Seaborn to gain insights into feature importance and model performance.
+By utilizing datasets such as **Wine** and **Iris**, this project demonstrates the effectiveness of ML classifiers in feature selection and optimization for real-world applications.
 
-📝 License
-Distributed under the MIT License. See LICENSE for more information.
+---
 
-🤝 Contributing
-Contributions are what make the open-source community such an amazing place to learn and grow. Any contributions you make are greatly appreciated.
+## 🛠️ Built With  
+- **Python**  
+- **scikit-learn**  
+- **NumPy**  
+- **Matplotlib**  
+- **Seaborn**  
+- **Jupyter Notebook**
 
-Fork the Project.
-Create your Feature Branch (git checkout -b feature/AmazingFeature).
-Commit your Changes (git commit -m 'Add some AmazingFeature').
-Push to the Branch (git push origin feature/AmazingFeature).
-Open a Pull Request.
+---
+
+## 🌟 Features  
+✅ Multiple models including **Logistic Regression** and **SVM**  
+✅ **Cross-validation** using Stratified KFold  
+✅ **Metrics:** Accuracy and Matthews Correlation Coefficient (MCC)  
+✅ Preprocessing with **MinMaxScaler** and **StandardScaler**  
+✅ **Visualization tools** using Matplotlib and Seaborn  
+
+---
+
+## 🚀 Getting Started  
+
+### Prerequisites  
+Make sure you have the following tools installed:  
+- **Python 3.x**  
+- An IDE like **Jupyter Notebook** or **Spyder**  
+
+Install the required packages by running:  
+```bash
+pip install scikit-learn numpy matplotlib seaborn
