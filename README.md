@@ -116,7 +116,7 @@ Contributions are welcome! Follow these steps to contribute:
 ---
 
 ## 📧 Contact  
-
+**Jesus Armando Beltran Verdugo** : abeltr99@calstatela.edu
 **Bhaven**: bchheda@calstatela.edu  
 **Tirth**: tshah6@calstatela.edu  
 
