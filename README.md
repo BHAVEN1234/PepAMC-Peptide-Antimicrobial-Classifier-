@@ -89,19 +89,12 @@ Visualize results using plots to assess model performance.
 
 ## 📊 Results  
 
-Visualize your results using Seaborn and Matplotlib. These visualizations can highlight important features and assess model accuracy. Example plots include:
+Visualizing the results is essential for assessing model performance and understanding key metrics. Below are some significant plots generated using Seaborn and Matplotlib:
 
-## 📊 Results  
+### Best Fitness vs. Generation Graph  
+This graph illustrates the relationship between the best fitness values achieved and the number of generations during the model training process. A well-defined trend can indicate the convergence of the model.
 
-Visualize your results using Seaborn and Matplotlib. These visualizations can highlight important features and assess model accuracy. Example plots include:
-### Confusion Matrix  
-![Confusion Matrix](images/confusion_matrix.png)  
-
-### Feature Importance Plot  
-![Feature Importance](images/feature_importance.png)  
-
-### MCC vs. Accuracy Graph  
-![MCC vs. Accuracy](images/mcc_vs_accuracy.png)  
+![Best Fitness vs. Generation](images/best_fitness_vs_generation.png)(images/best_fitness_vs_generation1.png)(images/best_fitness_vs_generation2.png)
 
 
 ---
