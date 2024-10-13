@@ -9,17 +9,17 @@
 ---
 
 ## 📋 Table of Contents  
-- [🧐 About The Project](#-about-the-project)  
-- [🛠️ Built With](#-built-with)  
-- [🌟 Features](#-features)  
-- [🚀 Getting Started](#-getting-started)  
+- [🧐 About The Project](#about-the-project)  
+- [🛠️ Built With](#built-with)  
+- [🌟 Features](#features)  
+- [🚀 Getting Started](#getting-started)  
   - [🔧 Prerequisites](#prerequisites)  
-- [🛠️ Usage](#-usage)  
-- [📊 Results](#-results)  
-- [📜 License](#-license)  
-- [🤝 Contributing](#-contributing)  
-- [📧 Contact](#-contact)  
-- [📌 Acknowledgments](#-acknowledgments)  
+- [🛠️ Usage](#usage)  
+- [📊 Results](#results)  
+- [📜 License](#license)  
+- [🤝 Contributing](#contributing)  
+- [📧 Contact](#contact)  
+- [📌 Acknowledgments](#acknowledgments)  
 
 ---
 
@@ -32,12 +32,12 @@ By utilizing datasets such as **Wine** and **Iris**, this project demonstrates t
 ---
 
 ## 🛠️ Built With  
-- **Python**  
-- **scikit-learn**  
-- **NumPy**  
-- **Matplotlib**  
-- **Seaborn**  
-- **Jupyter Notebook**
+- ![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white) **Python**  
+- ![scikit-learn](https://img.shields.io/badge/scikit--learn-orange?logo=scikitlearn&logoColor=white) **scikit-learn**  
+- ![NumPy](https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=white) **NumPy**  
+- ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?logo=plotly&logoColor=white) **Matplotlib**  
+- ![Seaborn](https://img.shields.io/badge/Seaborn-3776AB?logo=python&logoColor=white) **Seaborn**  
+- ![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter&logoColor=white) **Jupyter Notebook**
 
 ---
 
@@ -54,16 +54,16 @@ By utilizing datasets such as **Wine** and **Iris**, this project demonstrates t
 
 ### 🔧 Prerequisites  
 Make sure you have the following tools installed:  
-- **Python 3.x**  
-- An IDE like **Jupyter Notebook** or **Spyder**  
+- ![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white) **Python 3.x**  
+- ![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter&logoColor=white) **Jupyter Notebook** or **Spyder**  
 
 ---
 
 ## 🛠️ Usage  
-Load the dataset (e.g., Wine or Iris).  
-Preprocess the data using scaling tools like `MinMaxScaler` or `StandardScaler`.  
-Train and evaluate the models (Logistic Regression or SVM).  
-Visualize results using plots to assess model performance.
+1. Load the dataset (e.g., **Wine** or **Iris**).  
+2. Preprocess the data using scaling tools like `MinMaxScaler` or `StandardScaler`.  
+3. Train and evaluate the models (Logistic Regression or SVM).  
+4. Visualize results using plots to assess model performance.
 
 ---
 
@@ -97,8 +97,8 @@ Contributions are welcome! Follow these steps to contribute:
 
 ## 📧 Contact  
 
-**Bhaven**: bchheda@calstatela.edu  
-**Tirth**: tshah6@calstatela.edu  
+- **Bhaven**: bchheda@calstatela.edu  
+- **Tirth**: tshah6@calstatela.edu  
 
 ---
 
