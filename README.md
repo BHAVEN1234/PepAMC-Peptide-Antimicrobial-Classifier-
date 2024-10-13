@@ -9,17 +9,17 @@
 ---
 
 ## 📋 Table of Contents  
-- [🧐 About The Project](#about-the-project)  
-- [🛠️ Built With](#built-with)  
-- [🌟 Features](#features)  
-- [🚀 Getting Started](#getting-started)  
-  - [🔧 Prerequisites](#prerequisites)  
-- [🛠️ Usage](#usage)  
-- [📊 Results](#results)  
-- [📜 License](#license)  
-- [🤝 Contributing](#contributing)  
-- [📧 Contact](#contact)  
-- [📌 Acknowledgments](#acknowledgments)  
+- [🧐 About The Project](#-about-the-project)  
+- [🛠️ Built With](#-built-with)  
+- [🌟 Features](#-features)  
+- [🚀 Getting Started](#-getting-started)  
+  - [🔧 Prerequisites](#-prerequisites)  
+- [🛠️ Usage](#-usage)  
+- [📊 Results](#-results)  
+- [📜 License](#-license)  
+- [🤝 Contributing](#-contributing)  
+- [📧 Contact](#-contact)  
+- [📌 Acknowledgments](#-acknowledgments)  
 
 ---
 
