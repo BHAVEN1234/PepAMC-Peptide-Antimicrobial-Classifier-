@@ -91,9 +91,18 @@ Visualize results using plots to assess model performance.
 
 Visualize your results using Seaborn and Matplotlib. These visualizations can highlight important features and assess model accuracy. Example plots include:
 
-- **Confusion Matrix**  
-- **Feature Importance Plot**  
-- **MCC vs. Accuracy Graph**  
+## 📊 Results  
+
+Visualize your results using Seaborn and Matplotlib. These visualizations can highlight important features and assess model accuracy. Example plots include:
+### Confusion Matrix  
+![Confusion Matrix](images/confusion_matrix.png)  
+
+### Feature Importance Plot  
+![Feature Importance](images/feature_importance.png)  
+
+### MCC vs. Accuracy Graph  
+![MCC vs. Accuracy](images/mcc_vs_accuracy.png)  
+
 
 ---
 
