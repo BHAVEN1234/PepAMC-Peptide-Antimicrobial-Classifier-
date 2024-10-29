@@ -14,13 +14,14 @@
 - [🛠️ Built With](#-built-with)  
 - [🌟 Features](#-features)  
 - [🚀 Getting Started](#-getting-started)  
-  - [🔧 Prerequisites](#-prerequisites)  
-- [🛠️ Usage](#-usage)  
-- [📊 Results](#-results)  
-- [📜 License](#-license)  
-- [🤝 Contributing](#-contributing)  
-- [📧 Contact](#-contact)  
-- [📌 Acknowledgments](#-acknowledgments)  
+  - [🔧 Prerequisites](#prerequisites)  
+  - [📦 Install Dependencies](#install-dependencies)  
+- [🛠️ Usage](#usage)  
+- [📊 Results](#results)  
+- [📜 License](#license)  
+- [🤝 Contributing](#contributing)  
+- [📧 Contact](#contact)  
+- [📌 Acknowledgments](#acknowledgments)
 
 ---
 
@@ -78,7 +79,15 @@ To run this project, you need the following tools and libraries installed:
    ```
 
 ---
+### 📦 Install Dependencies  
+To install the necessary dependencies for this project, create a `requirements.txt` file using the following command in your terminal:
 
+```bash
+pip freeze > requirements.txt
+```
+```bash
+pip install -r requirements.txt
+```
 ## 🛠️ Usage  
 Load the dataset (e.g., Wine or Iris).  
 Preprocess the data using scaling tools like `MinMaxScaler` or `StandardScaler`.  
