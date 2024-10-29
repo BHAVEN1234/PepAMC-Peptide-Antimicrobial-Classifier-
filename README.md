@@ -96,6 +96,9 @@ Train and evaluate the models (Logistic Regression or SVM).
 Visualize results using plots to assess model performance.
 
 ---
+## 📑 Documentation  
+
+For detailed documentation, refer to the [Comprehensive Documentation](docs/Comprehensive_Documentation.pdf).
 
 ## 📊 Results  
 
