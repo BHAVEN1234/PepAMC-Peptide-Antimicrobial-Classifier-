@@ -98,8 +98,9 @@ Visualize results using plots to assess model performance.
 ---
 ## 📑 Documentation  
 
-For detailed documentation, refer to the [Comprehensive Documentation](docs/Comprehensive_Documentation.pdf).
-Baseline Model Updated Document [Baseline Model Updated](docs/Baseline_model_updated.pdf).
+For detailed documentation, refer to:
+- [Comprehensive Documentation](docs/Comprehensive_Documentation.pdf)  
+- [Baseline Model Updated](docs/Baseline_model_updated.pdf)
 
 ## 📊 Results  
 
