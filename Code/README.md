@@ -86,7 +86,7 @@ datasets = [
     ("Custom Dataset", lambda: fetch_openml(name="custom", version=1))
 ]
 ```
-## Evaluation
+## 🔍 Example Usage
 
 To run the evaluation:
 
@@ -104,4 +104,15 @@ To run the evaluation:
     ```
 
 3. Check the console output for a formatted table summarizing results, or view the saved CSV file for a complete summary of model performance across datasets.
+
+## 📄 License
+
+This project is licensed under the MIT License - see the `LICENSE` file for details.
+
+---
+
+## 🙌 Acknowledgments
+
+Thanks to the developers of `sklearn`, `OpenML`, and `tabulate` for making dataset loading and formatting so convenient.
+
 
