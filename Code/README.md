@@ -87,13 +87,3 @@ datasets = [
 ]
 
 --
-## 🔍 Example Usage
-
-To run the evaluation:
-
-1. Clone the repository and navigate to the directory.
-
-2. Run the script:
-
-   ```bash
-   python baseline_evaluation.py
