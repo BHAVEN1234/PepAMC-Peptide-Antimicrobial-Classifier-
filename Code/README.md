@@ -48,7 +48,7 @@ All results are aggregated into a `pandas` DataFrame, formatted using `tabulate`
 
 ---
 
-## 📋 Example Output
+## 📋 Output
 
 The script generates a table summarizing the performance of the baseline model for each dataset. Below is a sample output:
 
@@ -85,3 +85,15 @@ datasets = [
     ("Iris", load_iris),
     ("Custom Dataset", lambda: fetch_openml(name="custom", version=1))
 ]
+
+--
+## 🔍 Example Usage
+
+To run the evaluation:
+
+1. Clone the repository and navigate to the directory.
+
+2. Run the script:
+
+   ```bash
+   python baseline_evaluation.py
