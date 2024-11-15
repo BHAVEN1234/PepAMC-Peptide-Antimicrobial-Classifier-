@@ -85,5 +85,3 @@ datasets = [
     ("Iris", load_iris),
     ("Custom Dataset", lambda: fetch_openml(name="custom", version=1))
 ]
-
---
