@@ -85,3 +85,23 @@ datasets = [
     ("Iris", load_iris),
     ("Custom Dataset", lambda: fetch_openml(name="custom", version=1))
 ]
+```
+## Evaluation
+
+To run the evaluation:
+
+1. Clone the repository and navigate to the project directory:
+
+    ```bash
+    git clone https://github.com/your-username/your-repo-name.git
+    cd your-repo-name
+    ```
+
+2. Run the script:
+
+    ```bash
+    python baseline_evaluation.py
+    ```
+
+3. Check the console output for a formatted table summarizing results, or view the saved CSV file for a complete summary of model performance across datasets.
+
