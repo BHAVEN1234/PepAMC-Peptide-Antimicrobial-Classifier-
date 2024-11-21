@@ -90,20 +90,61 @@ datasets = [
 
 To run the evaluation:
 
-1. Clone the repository and navigate to the project directory:
+1. **Clone the repository** and navigate to the project directory:
 
     ```bash
     git clone https://github.com/your-username/your-repo-name.git
     cd your-repo-name
     ```
 
-2. Run the script:
+2. **Set up a Python virtual environment**:
+
+    Create and activate a virtual environment to keep dependencies isolated.
+
+    ```bash
+    # Create a virtual environment named 'venv'
+    python3 -m venv venv
+    ```
+
+3. **Activate the virtual environment**:
+
+    - On **Linux/macOS**:
+    
+      ```bash
+      source venv/bin/activate
+      ```
+
+    - On **Windows**:
+    
+      ```bash
+      venv\Scripts\activate
+      ```
+
+4. **Install the required dependencies**:
+
+    Ensure you have a `requirements.txt` file in the project directory that lists all necessary packages. Install the dependencies with:
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+5. **Run the evaluation script**:
 
     ```bash
     python baseline_evaluation.py
     ```
 
-3. Check the console output for a formatted table summarizing results, or view the saved CSV file for a complete summary of model performance across datasets.
+6. **Check the results**:
+
+    View the console output for a formatted table summarizing the results, or open the saved CSV file for a complete summary of model performance across datasets.
+
+7. **Deactivate the virtual environment** (when done):
+
+    ```bash
+    deactivate
+    ```
+
+This guide provides a full setup for running the evaluation script, including setting up and activating a virtual environment, installing dependencies, and deactivating the environment after completion.
 
 ## 📄 License
 
