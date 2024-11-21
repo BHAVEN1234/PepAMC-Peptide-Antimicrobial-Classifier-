@@ -52,27 +52,27 @@ All results are aggregated into a `pandas` DataFrame, formatted using `tabulate`
 
 The script generates a table summarizing the performance of the baseline model for each dataset. Below is a sample output:
 
-| Dataset                                   |   KNeighborsClassifier_AUC |   KNeighborsClassifier_AUC_STD |
-|-------------------------------------------|----------------------------|---------------------------------|
-| Arrhythmia                                |                   0.57744  |                     0.0148868  |
-| Australian                                |                   0.856522 |                     0.0351729  |
-| DNA                                       |                   0.836489 |                     0.0176211  |
-| German Number (Credit Dataset)            |                   0.721    |                     0.0314484  |
-| Glass                                     |                   0.668398 |                     0.0673421  |
-| Heart                                     |                   0.819188 |                     0.0455073  |
-| Hillvalley                                |                   0.499187 |                     0.00633222 |
-| Ionosphere                                |                   0.695556 |                     0.126996   |
-| Iris                                      |                   0.853333 |                     0.0718022  |
-| Multiple Features                         |                   0.8055   |                     0.0301206  |
-| Musk 1                                    |                   0.831495 |                     0.165486   |
-| Sonar                                     |                   0.52381  |                     0.0897212  |
-| Spambase                                  |                   0.798963 |                     0.0246224  |
-| Vehicle                                   |                   0.917297 |                     0.0258821  |
-| WBC (Breast Cancer Wisconsin Original)    |                   0.95     |                     0.0368394  |
-| WBDC (Breast Cancer Wisconsin Diagnostic) |                   0.685432 |                     0.0409327  |
-| Waveform                                  |                   0.6298   |                     0.0206194  |
-| Wine                                      |                   0.619608 |                     0.0994152  |
-| Zoo                                       |                   1        |                     0          |
+| Dataset                                   | KNeighborsClassifier_AUC | KNeighborsClassifier_AUC_STD | KNeighborsClassifier_Best_Params                                  |
+|-------------------------------------------|--------------------------|------------------------------|-------------------------------------------------------------------|
+| Arrhythmia                                | 0.57744                  | 0.0148868                    | {'classifier__n_neighbors': 7, 'classifier__weights': 'uniform'}  |
+| Australian                                | 0.856522                 | 0.0351729                    | {'classifier__n_neighbors': 7, 'classifier__weights': 'distance'} |
+| DNA                                       | 0.836489                 | 0.0176211                    | {'classifier__n_neighbors': 7, 'classifier__weights': 'distance'} |
+| German Number (Credit Dataset)            | 0.721                    | 0.0314484                    | {'classifier__n_neighbors': 3, 'classifier__weights': 'distance'} |
+| Glass                                     | 0.668398                 | 0.0673421                    | {'classifier__n_neighbors': 7, 'classifier__weights': 'uniform'}  |
+| Heart                                     | 0.819188                 | 0.0455073                    | {'classifier__n_neighbors': 7, 'classifier__weights': 'uniform'}  |
+| Hillvalley                                | 0.499187                 | 0.00633222                   | {'classifier__n_neighbors': 5, 'classifier__weights': 'uniform'}  |
+| Ionosphere                                | 0.695556                 | 0.126996                     | {'classifier__n_neighbors': 3, 'classifier__weights': 'uniform'}  |
+| Iris                                      | 0.853333                 | 0.0718022                    | {'classifier__n_neighbors': 7, 'classifier__weights': 'distance'} |
+| Multiple Features                         | 0.8055                   | 0.0301206                    | {'classifier__n_neighbors': 7, 'classifier__weights': 'distance'} |
+| Musk 1                                    | 0.831495                 | 0.165486                     | {'classifier__n_neighbors': 5, 'classifier__weights': 'distance'} |
+| Sonar                                     | 0.52381                  | 0.0897212                    | {'classifier__n_neighbors': 5, 'classifier__weights': 'uniform'}  |
+| Spambase                                  | 0.798963                 | 0.0246224                    | {'classifier__n_neighbors': 5, 'classifier__weights': 'distance'} |
+| Vehicle                                   | 0.917297                 | 0.0258821                    | {'classifier__n_neighbors': 5, 'classifier__weights': 'uniform'}  |
+| WBC (Breast Cancer Wisconsin Original)    | 0.95                     | 0.0368394                    | {'classifier__n_neighbors': 3, 'classifier__weights': 'uniform'}  |
+| WBDC (Breast Cancer Wisconsin Diagnostic) | 0.685432                 | 0.0409327                    | {'classifier__n_neighbors': 7, 'classifier__weights': 'uniform'}  |
+| Waveform                                  | 0.6298                   | 0.0206194                    | {'classifier__n_neighbors': 7, 'classifier__weights': 'uniform'}  |
+| Wine                                      | 0.619608                 | 0.0994152                    | {'classifier__n_neighbors': 7, 'classifier__weights': 'distance'} |
+| Zoo                                       | 1                        | 0                            | {'classifier__n_neighbors': 3, 'classifier__weights': 'uniform'}  |
 
 ---
 
