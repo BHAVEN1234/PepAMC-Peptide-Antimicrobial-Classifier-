@@ -63,11 +63,12 @@ datasets = [
 
 
 ]
+```
 ### Modify the SAGAFS_GA initialization in the main loop:
 ```python
 ga_fs = SAGAFS_GA(estimator=estimator, cv=cv, scoring='accuracy', 
                   population_size=20, generations=50)
-
+```
 ## 🔍 Usage
 1)Clone the repository and navigate to the project directory.
 2)Set up a Python virtual environment and activate it.
