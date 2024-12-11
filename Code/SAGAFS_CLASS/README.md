@@ -63,3 +63,24 @@ datasets = [
 
 
 ]
+### Modify the SAGAFS_GA initialization in the main loop:
+```python
+ga_fs = SAGAFS_GA(estimator=estimator, cv=cv, scoring='accuracy', 
+                  population_size=20, generations=50)
+
+## 🔍 Usage
+1)Clone the repository and navigate to the project directory.
+2)Set up a Python virtual environment and activate it.
+3)Install required dependencies: pip install -r requirements.txt
+4)Run the evaluation script: python main_script.py
+5)Check console output and generated CSV files for results.
+
+## 📄 License
+
+This project is licensed under the MIT License - see the `LICENSE` file for details.
+
+---
+
+## 🙌 Acknowledgments
+
+Thanks to the developers of `sklearn`, `OpenML`, and `tabulate` for making dataset loading and formatting so convenient.
