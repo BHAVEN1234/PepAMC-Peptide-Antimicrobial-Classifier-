@@ -1,0 +1,13 @@
+# Core numerical and data manipulation libraries
+numpy>=1.21.0
+pandas>=1.3.0
+
+# Machine learning and feature selection library
+scikit-learn>=1.0.0
+
+# Visualization libraries
+matplotlib>=3.4.0
+seaborn>=0.11.0
+
+# Additional tools for pipelines and encoding
+joblib>=1.0.0
