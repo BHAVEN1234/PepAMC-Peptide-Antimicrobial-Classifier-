@@ -1,0 +1,18 @@
+Dataset,Framework,AUC,AUC_STD,Best_Params,Time_Taken
+Iris,KNeighborsClassifier,0.8533333333333335,0.07180219742846006,"{'classifier__n_neighbors': 7, 'classifier__weights': 'distance'}",0.8872973918914795
+WBDC (Breast Cancer Wisconsin Diagnostic),KNeighborsClassifier,0.6854323308270677,0.04093269008836167,"{'classifier__n_neighbors': 7, 'classifier__weights': 'uniform'}",3.652597665786743
+Spambase,KNeighborsClassifier,0.7989625577666699,0.024622408860984428,"{'classifier__n_neighbors': 5, 'classifier__weights': 'distance'}",27.089203119277954
+Heart,KNeighborsClassifier,0.8191883116883115,0.045507263028688995,"{'classifier__n_neighbors': 7, 'classifier__weights': 'uniform'}",1.015531063079834
+Glass,KNeighborsClassifier,0.6683982683982684,0.06734211156108369,"{'classifier__n_neighbors': 7, 'classifier__weights': 'uniform'}",1.0753839015960693
+WBC (Breast Cancer Wisconsin Original),KNeighborsClassifier,0.95,0.03683941988065038,"{'classifier__n_neighbors': 3, 'classifier__weights': 'uniform'}",1.2449474334716797
+Ionosphere,KNeighborsClassifier,0.6955555555555556,0.1269956343992288,"{'classifier__n_neighbors': 3, 'classifier__weights': 'uniform'}",2.599748373031616
+Arrhythmia,KNeighborsClassifier,0.5774396135265699,0.014886832236702835,"{'classifier__n_neighbors': 7, 'classifier__weights': 'uniform'}",26.932027339935303
+Multiple Features,KNeighborsClassifier,0.8055,0.03012059096365805,"{'classifier__n_neighbors': 7, 'classifier__weights': 'distance'}",21.352411031723022
+Australian,KNeighborsClassifier,0.8565217391304347,0.035172930723222,"{'classifier__n_neighbors': 7, 'classifier__weights': 'distance'}",1.9413809776306152
+DNA,KNeighborsClassifier,0.83648883105617,0.017621144879413367,"{'classifier__n_neighbors': 7, 'classifier__weights': 'distance'}",22.13544201850891
+Wine,KNeighborsClassifier,0.6196078431372549,0.09941518087232178,"{'classifier__n_neighbors': 7, 'classifier__weights': 'distance'}",1.8916270732879639
+Vehicle,KNeighborsClassifier,0.9172969187675069,0.025882129365932635,"{'classifier__n_neighbors': 5, 'classifier__weights': 'uniform'}",1.8399672508239746
+Waveform,KNeighborsClassifier,0.6298000000000001,0.020619408332927518,"{'classifier__n_neighbors': 7, 'classifier__weights': 'uniform'}",12.878402709960938
+Zoo,KNeighborsClassifier,1.0,0.0,"{'classifier__n_neighbors': 3, 'classifier__weights': 'uniform'}",1.1428804397583008
+Hillvalley,KNeighborsClassifier,0.49918710201869665,0.006332217868819316,"{'classifier__n_neighbors': 5, 'classifier__weights': 'uniform'}",10.037435054779053
+Sonar,KNeighborsClassifier,0.5238095238095238,0.08972116038769891,"{'classifier__n_neighbors': 5, 'classifier__weights': 'uniform'}",4.290769338607788
