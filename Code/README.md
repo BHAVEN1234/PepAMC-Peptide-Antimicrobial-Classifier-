@@ -5,13 +5,13 @@ SAGAFS-GA is a cutting-edge feature selection algorithm that combines the power 
 
 ---
 
-## ✨ Features
+## ✨ key Features
 
-- 📥 **Automatic Dataset Loading**: Seamlessly fetches datasets from `sklearn` and `OpenML`.
-- 🤖 **Baseline Model Evaluation**: Uses `KNeighborsClassifier` to evaluate datasets with accuracy and consistency.
-- ⚙️ **Hyperparameter Optimization**: Implements `GridSearchCV` for tuning key hyperparameters.
-- 📊 **Cross-Validation Results**: Computes mean and standard deviation of model performance metrics.
-- 📝 **Formatted Output**: Displays results in a clean, tabular format and saves them as a CSV file.
+🎯 Adaptive Feature Selection: Dynamically selects the most impactful features
+🔧 Hyperparameter Optimization: Seamless integration with scikit-learn's GridSearchCV
+🔌 Flexible Estimator Support: Works with a wide range of scikit-learn classifiers
+📊 Advanced Performance Metrics: Evaluates models using accuracy, Matthews Correlation Coefficient, and F1-score
+📈 Insightful Visualizations: Plots fitness evolution and feature importance heatmaps
 
 ---
 
