@@ -7,7 +7,7 @@ SAGAFS-GA is a cutting-edge feature selection algorithm that combines the power 
 
 ## ✨ key Features
 
-🎯 Adaptive Feature Selection: Dynamically selects the most impactful features
+- 🎯 "Adaptive Feature Selection": Dynamically selects the most impactful features
 🔧 Hyperparameter Optimization: Seamless integration with scikit-learn's GridSearchCV
 🔌 Flexible Estimator Support: Works with a wide range of scikit-learn classifiers
 📊 Advanced Performance Metrics: Evaluates models using accuracy, Matthews Correlation Coefficient, and F1-score
