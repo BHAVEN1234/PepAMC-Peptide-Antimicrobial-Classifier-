@@ -1,4 +1,4 @@
-# 📊 Baseline Model Evaluation Framework
+A# 🧬 SAGAFS-GA: Supercharged Feature Selection for Machine Learning 🚀
 
 ## 🚀 Overview
 This Python script evaluates the performance of machine learning models on various datasets fetched from popular repositories such as `sklearn` and `OpenML`. It automates preprocessing, hyperparameter tuning, and cross-validation to provide a comprehensive evaluation summary. Results are presented in a structured table format and saved for further analysis.
@@ -47,35 +47,6 @@ The `Baseline()` function is the core of the script. It performs the following:
 All results are aggregated into a `pandas` DataFrame, formatted using `tabulate`, and saved as a CSV file for future reference.
 
 ---
-
-## 📋 Output
-
-The script generates a table summarizing the performance of the baseline model for each dataset. Below is a sample output:
-
-| Dataset                                   | KNeighborsClassifier_AUC | KNeighborsClassifier_AUC_STD | KNeighborsClassifier_Best_Params                                  |
-|-------------------------------------------|--------------------------|------------------------------|-------------------------------------------------------------------|
-| Arrhythmia                                | 0.57744                  | 0.0148868                    | {'classifier__n_neighbors': 7, 'classifier__weights': 'uniform'}  |
-| Australian                                | 0.856522                 | 0.0351729                    | {'classifier__n_neighbors': 7, 'classifier__weights': 'distance'} |
-| DNA                                       | 0.836489                 | 0.0176211                    | {'classifier__n_neighbors': 7, 'classifier__weights': 'distance'} |
-| German Number (Credit Dataset)            | 0.721                    | 0.0314484                    | {'classifier__n_neighbors': 3, 'classifier__weights': 'distance'} |
-| Glass                                     | 0.668398                 | 0.0673421                    | {'classifier__n_neighbors': 7, 'classifier__weights': 'uniform'}  |
-| Heart                                     | 0.819188                 | 0.0455073                    | {'classifier__n_neighbors': 7, 'classifier__weights': 'uniform'}  |
-| Hillvalley                                | 0.499187                 | 0.00633222                   | {'classifier__n_neighbors': 5, 'classifier__weights': 'uniform'}  |
-| Ionosphere                                | 0.695556                 | 0.126996                     | {'classifier__n_neighbors': 3, 'classifier__weights': 'uniform'}  |
-| Iris                                      | 0.853333                 | 0.0718022                    | {'classifier__n_neighbors': 7, 'classifier__weights': 'distance'} |
-| Multiple Features                         | 0.8055                   | 0.0301206                    | {'classifier__n_neighbors': 7, 'classifier__weights': 'distance'} |
-| Musk 1                                    | 0.831495                 | 0.165486                     | {'classifier__n_neighbors': 5, 'classifier__weights': 'distance'} |
-| Sonar                                     | 0.52381                  | 0.0897212                    | {'classifier__n_neighbors': 5, 'classifier__weights': 'uniform'}  |
-| Spambase                                  | 0.798963                 | 0.0246224                    | {'classifier__n_neighbors': 5, 'classifier__weights': 'distance'} |
-| Vehicle                                   | 0.917297                 | 0.0258821                    | {'classifier__n_neighbors': 5, 'classifier__weights': 'uniform'}  |
-| WBC (Breast Cancer Wisconsin Original)    | 0.95                     | 0.0368394                    | {'classifier__n_neighbors': 3, 'classifier__weights': 'uniform'}  |
-| WBDC (Breast Cancer Wisconsin Diagnostic) | 0.685432                 | 0.0409327                    | {'classifier__n_neighbors': 7, 'classifier__weights': 'uniform'}  |
-| Waveform                                  | 0.6298                   | 0.0206194                    | {'classifier__n_neighbors': 7, 'classifier__weights': 'uniform'}  |
-| Wine                                      | 0.619608                 | 0.0994152                    | {'classifier__n_neighbors': 7, 'classifier__weights': 'distance'} |
-| Zoo                                       | 1                        | 0                            | {'classifier__n_neighbors': 3, 'classifier__weights': 'uniform'}  |
-
----
-
 ## 🔧 Customization
 
 ### Modifying Datasets
