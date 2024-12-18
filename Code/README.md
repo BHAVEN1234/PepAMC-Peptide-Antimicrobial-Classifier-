@@ -1,7 +1,7 @@
 # 🧬 SAGAFS-GA: Supercharged Feature Selection for Machine Learning 🚀
 
 ## 🚀 Overview
-This Python script evaluates the performance of machine learning models on various datasets fetched from popular repositories such as `sklearn` and `OpenML`. It automates preprocessing, hyperparameter tuning, and cross-validation to provide a comprehensive evaluation summary. Results are presented in a structured table format and saved for further analysis.
+SAGAFS-GA is a cutting-edge feature selection algorithm that combines the power of Simulated Annealing (SA) with Genetic Algorithms (GA) to supercharge your machine learning models. This innovative tool optimizes feature subsets, enhancing classification performance while keeping your models lean and efficient.
 
 ---
 
