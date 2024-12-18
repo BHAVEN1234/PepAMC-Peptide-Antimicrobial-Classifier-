@@ -54,24 +54,12 @@ saga_fs.fit(X, y)
 saga_fs.plot_fitness_over_generations()
 saga_fs.plot_heatmap(saga_fs.best_individual, [f"Feature_{i}" for i in range(X.shape[1])])
 ```
-### 1. Dataset Handling
+## 🧠 Advanced Capabilities
 
-The `datasets` list contains popular datasets loaded either via `sklearn` or `OpenML`. Each dataset is processed with error handling to ensure compatibility.
-
-- **From `sklearn`**: Datasets such as Iris and Wine are fetched directly.
-- **From OpenML**: More diverse datasets are accessed by name or ID using `fetch_openml()`.
-
-### 2. Baseline Evaluation
-
-The `Baseline()` function is the core of the script. It performs the following:
-- **Preprocessing**: Uses `ColumnTransformer` and `Pipeline` to handle categorical and numerical features.
-- **Hyperparameter Tuning**: Optimizes model parameters with `GridSearchCV` (optional).
-- **Cross-Validation**: Evaluates the model using `StratifiedKFold` with customizable scoring metrics such as `accuracy`, `f1_score`, and `matthews_corrcoef`.
-
-### 3. Results Compilation
-
-All results are aggregated into a `pandas` DataFrame, formatted using `tabulate`, and saved as a CSV file for future reference.
-
+- 🧬 **SSOCF Crossover:** Sophisticated crossover strategy for optimal feature combination.
+- 🔄 **Dynamic Rate Adaptation:** Auto-adjusts mutation and crossover rates for peak performance.
+- 👑 **Elitism:** Preserves the best solutions across generations.
+- 🧹 **Smart Preprocessing:** Handles various data types and manages missing values automatically
 ---
 ## 🔧 Customization
 
