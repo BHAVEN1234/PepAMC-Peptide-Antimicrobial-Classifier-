@@ -31,7 +31,7 @@ The script loads multiple datasets and provides a detailed overview of each data
 
 ## 📈 Model Evaluation Summary
 
-To evaluate model performance, this script utilizes a `KNeighborsClassifier` and performs hyperparameter tuning and cross-validation across the datasets. The evaluation results are organized by dataset, providing `AUC` (Area Under the Curve) scores and their standard deviations, giving a clear view of the model’s effectiveness.  
+To evaluate model performance, this script utilizes our Baseline Model with `KNeighborsClassifier` and performs hyperparameter tuning and cross-validation across the datasets. The evaluation results are organized by dataset, providing `AUC` (Area Under the Curve) scores and their standard deviations, giving a clear view of the model’s effectiveness.  
 
 | **Dataset**                               | **Framework**             | **AUC**                        | **AUC_STD**                   | **Best_Params**                                              | **Time_Taken**       |
 |-------------------------------------------|---------------------------|---------------------------------|-------------------------------|-------------------------------------------------------------|-----------------------|
