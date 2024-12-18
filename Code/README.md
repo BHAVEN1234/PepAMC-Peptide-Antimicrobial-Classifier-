@@ -24,7 +24,36 @@ SAGAFS-GA is a cutting-edge feature selection algorithm that combines the power 
 
 ---
 
-## 📝 Code Explanation
+## 🚀 Quick Start
+```python
+from sagafs_ga import SAGAFS_GA
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.model_selection import StratifiedKFold
+from sklearn.datasets import load_iris
+
+# Load your data
+X, y = load_iris(return_X_y=True)
+
+# Configure SAGAFS-GA
+saga_fs = SAGAFS_GA(
+    estimator=KNeighborsClassifier(),
+    cv=StratifiedKFold(n_splits=5),
+    scoring='accuracy',
+    population_size=20,
+    generations=10,
+    param_grid={
+        'n_neighbors': [3, 5, 7],
+        'weights': ['uniform', 'distance']
+    }
+)
+
+# Unleash the power of SAGAFS-GA
+saga_fs.fit(X, y)
+
+# Visualize the magic
+saga_fs.plot_fitness_over_generations()
+saga_fs.plot_heatmap(saga_fs.best_individual, [f"Feature_{i}" for i in range(X.shape[1])])
+```
 
 This script provides a systematic approach to evaluating baseline models across multiple datasets. Below is a breakdown of its components:
 
