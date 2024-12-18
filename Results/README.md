@@ -20,15 +20,12 @@ The script loads multiple datasets and provides a detailed overview of each data
 | Arrhythmia                                  | 13             | 279            | 206              | 73                 | 452         |
 | Multiple Features                           | 10             | 216            | 216              | 0                  | 2000        |
 | Australian                                  | 2              | 14             | 6                | 8                  | 690         |
-| German Number (Credit Dataset)              | 2              | 20             | 7                | 13                 | 1000        |
 | DNA                                         | 3              | 180            | 0                | 180                | 3186        |
 | Wine                                        | 3              | 13             | 13               | 0                  | 178         |
 | Vehicle                                     | 2              | 18             | 18               | 0                  | 846         |
 | Waveform                                    | 2              | 40             | 40               | 0                  | 5000        |
-| Zoo                                         | 2              | 16             | 1                | 15                 | 101         |
 | Hillvalley                                  | 2              | 100            | 100              | 0                  | 1212        |
 | Sonar                                       | 2              | 60             | 60               | 0                  | 208         |
-| Musk 1                                      | 2              | 167            | 166              | 1                  | 6598        |
 
 ---
 
@@ -41,14 +38,12 @@ To evaluate model performance, this script utilizes a `KNeighborsClassifier` and
 | Arrhythmia                                 | 0.57744                       | 0.0148868                        |
 | Australian                                 | 0.856522                      | 0.0351729                        |
 | DNA                                        | 0.836489                      | 0.0176211                        |
-| German Number (Credit Dataset)             | 0.721                         | 0.0314484                        |
 | Glass                                      | 0.668398                      | 0.0673421                        |
 | Heart                                      | 0.819188                      | 0.0455073                        |
 | Hillvalley                                 | 0.499187                      | 0.00633222                       |
 | Ionosphere                                 | 0.695556                      | 0.126996                         |
 | Iris                                       | 0.853333                      | 0.0718022                        |
 | Multiple Features                          | 0.8055                        | 0.0301206                        |
-| Musk 1                                     | 0.831495                      | 0.165486                         |
 | Sonar                                      | 0.52381                       | 0.0897212                        |
 | Spambase                                   | 0.798963                      | 0.0246224                        |
 | Vehicle                                    | 0.917297                      | 0.0258821                        |
@@ -56,7 +51,7 @@ To evaluate model performance, this script utilizes a `KNeighborsClassifier` and
 | WBDC (Breast Cancer Wisconsin Diagnostic)  | 0.685432                      | 0.0409327                        |
 | Waveform                                   | 0.6298                        | 0.0206194                        |
 | Wine                                       | 0.619608                      | 0.0994152                        |
-| Zoo                                        | 1.0                           | 0                                |
+
 
 ---
 
