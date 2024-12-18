@@ -61,6 +61,20 @@ saga_fs.plot_heatmap(saga_fs.best_individual, [f"Feature_{i}" for i in range(X.s
 - 👑 **Elitism:** Preserves the best solutions across generations.
 - 🧹 **Smart Preprocessing:** Handles various data types and manages missing values automatically
 ---
+---
+## 📊 Supported Datasets
+SAGAFS-GA has been tested on a variety of datasets, including:
+- Iris
+- Breast Cancer Wisconsin (Diagnostic and Original)
+- Spambase
+- Heart Disease
+- Glass Identification
+- Ionosphere
+- Arrhythmia
+- Wine
+- Vehicle
+- Sonar
+---
 ## 🔧 Customization
 
 ### Modifying Datasets
