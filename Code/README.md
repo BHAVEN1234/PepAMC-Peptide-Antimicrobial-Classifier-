@@ -1,4 +1,4 @@
-A# 🧬 SAGAFS-GA: Supercharged Feature Selection for Machine Learning 🚀
+# 🧬 SAGAFS-GA: Supercharged Feature Selection for Machine Learning 🚀
 
 ## 🚀 Overview
 This Python script evaluates the performance of machine learning models on various datasets fetched from popular repositories such as `sklearn` and `OpenML`. It automates preprocessing, hyperparameter tuning, and cross-validation to provide a comprehensive evaluation summary. Results are presented in a structured table format and saved for further analysis.
