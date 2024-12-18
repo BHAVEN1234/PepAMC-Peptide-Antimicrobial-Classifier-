@@ -1,0 +1,2 @@
+Dataset,Framework,AUC,AUC_STD,Best_Params,Time_Taken
+Hillvalley,SAGAFS_GA,0.613825119885726,0.03093890150067646,"{'n_neighbors': 3, 'weights': 'distance'}",12.20855712890625

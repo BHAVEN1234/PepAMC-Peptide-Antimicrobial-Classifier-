@@ -1,0 +1,2 @@
+Dataset,Framework,AUC,AUC_STD,Best_Params,Time_Taken
+WBC (Breast Cancer Wisconsin Original),SAGAFS_GA,0.9699691675231243,0.017127544974119627,"{'n_neighbors': 5, 'weights': 'uniform'}",25.07077717781067

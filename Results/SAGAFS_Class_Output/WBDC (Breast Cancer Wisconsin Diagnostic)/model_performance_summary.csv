@@ -1,0 +1,2 @@
+Dataset,Framework,AUC,AUC_STD,Best_Params,Time_Taken
+WBDC (Breast Cancer Wisconsin Diagnostic),SAGAFS_GA,0.9490296537804689,0.014047962516113429,"{'n_neighbors': 5, 'weights': 'uniform'}",18.822770595550537
