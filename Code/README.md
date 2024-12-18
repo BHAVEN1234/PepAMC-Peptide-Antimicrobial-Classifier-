@@ -54,13 +54,13 @@ saga_fs.fit(X, y)
 saga_fs.plot_fitness_over_generations()
 saga_fs.plot_heatmap(saga_fs.best_individual, [f"Feature_{i}" for i in range(X.shape[1])])
 ```
+---
 ## 🧠 Advanced Capabilities
 
 - 🧬 **SSOCF Crossover:** Sophisticated crossover strategy for optimal feature combination.
 - 🔄 **Dynamic Rate Adaptation:** Auto-adjusts mutation and crossover rates for peak performance.
 - 👑 **Elitism:** Preserves the best solutions across generations.
 - 🧹 **Smart Preprocessing:** Handles various data types and manages missing values automatically
----
 ---
 ## 📊 Supported Datasets
 SAGAFS-GA has been tested on a variety of datasets, including:
@@ -153,6 +153,9 @@ This project is licensed under the MIT License - see the `LICENSE` file for deta
 
 ## 🙌 Acknowledgments
 
-Thanks to the developers of `sklearn`, `OpenML`, and `tabulate` for making dataset loading and formatting so convenient.
+- This project was inspired by recent advancements in feature selection techniques.
+- Special thanks to the scikit-learn community for their excellent machine learning tools.
+  
+Elevate your machine learning pipelines with SAGAFS-GA – where evolutionary optimization meets cutting-edge feature selection! 🚀🧠
 
 
