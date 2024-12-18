@@ -31,28 +31,26 @@ The script loads multiple datasets and provides a detailed overview of each data
 
 ## 📈 Model Evaluation Summary
 
-To evaluate model performance, this script utilizes a `KNeighborsClassifier` and performs hyperparameter tuning and cross-validation across the datasets. The evaluation results are organized by dataset, providing `AUC` (Area Under the Curve) scores and their standard deviations, giving a clear view of the model’s effectiveness.
+To evaluate model performance, this script utilizes a `KNeighborsClassifier` and performs hyperparameter tuning and cross-validation across the datasets. The evaluation results are organized by dataset, providing `AUC` (Area Under the Curve) scores and their standard deviations, giving a clear view of the model’s effectiveness.  
 
-| **Dataset**                                | **KNeighborsClassifier_AUC** | **KNeighborsClassifier_AUC_STD** |
-|--------------------------------------------|-------------------------------|-----------------------------------|
-| Arrhythmia                                 | 0.57744                       | 0.0148868                        |
-| Australian                                 | 0.856522                      | 0.0351729                        |
-| DNA                                        | 0.836489                      | 0.0176211                        |
-| Glass                                      | 0.668398                      | 0.0673421                        |
-| Heart                                      | 0.819188                      | 0.0455073                        |
-| Hillvalley                                 | 0.499187                      | 0.00633222                       |
-| Ionosphere                                 | 0.695556                      | 0.126996                         |
-| Iris                                       | 0.853333                      | 0.0718022                        |
-| Multiple Features                          | 0.8055                        | 0.0301206                        |
-| Sonar                                      | 0.52381                       | 0.0897212                        |
-| Spambase                                   | 0.798963                      | 0.0246224                        |
-| Vehicle                                    | 0.917297                      | 0.0258821                        |
-| WBC (Breast Cancer Wisconsin Original)     | 0.95                          | 0.0368394                        |
-| WBDC (Breast Cancer Wisconsin Diagnostic)  | 0.685432                      | 0.0409327                        |
-| Waveform                                   | 0.6298                        | 0.0206194                        |
-| Wine                                       | 0.619608                      | 0.0994152                        |
-
-
+| **Dataset**                               | **Framework**             | **AUC**                        | **AUC_STD**                   | **Best_Params**                                              | **Time_Taken**       |
+|-------------------------------------------|---------------------------|---------------------------------|-------------------------------|-------------------------------------------------------------|-----------------------|
+| Iris                                      | KNeighborsClassifier      | 0.8533333333333335             | 0.07180219742846006           | {'classifier__n_neighbors': 7, 'classifier__weights': 'distance'} | 2.8770437240600586   |
+| WBDC (Breast Cancer Wisconsin Diagnostic) | KNeighborsClassifier      | 0.6854323308270677             | 0.04093269008836167           | {'classifier__n_neighbors': 7, 'classifier__weights': 'uniform'}  | 9.412885427474976    |
+| Spambase                                  | KNeighborsClassifier      | 0.7989625577666699             | 0.024622408860984428          | {'classifier__n_neighbors': 5, 'classifier__weights': 'distance'} | 27.55205273628235    |
+| Heart                                     | KNeighborsClassifier      | 0.8191883116883115             | 0.045507263028688995          | {'classifier__n_neighbors': 7, 'classifier__weights': 'uniform'}  | 1.1435601711273193   |
+| Glass                                     | KNeighborsClassifier      | 0.6683982683982684             | 0.06734211156108369           | {'classifier__n_neighbors': 7, 'classifier__weights': 'uniform'}  | 1.129058837890625    |
+| WBC (Breast Cancer Wisconsin Original)    | KNeighborsClassifier      | 0.95                           | 0.03683941988065038           | {'classifier__n_neighbors': 3, 'classifier__weights': 'uniform'}  | 1.5516104698181152   |
+| Ionosphere                                | KNeighborsClassifier      | 0.6955555555555556             | 0.1269956343992288            | {'classifier__n_neighbors': 3, 'classifier__weights': 'uniform'}  | 2.868738889694214    |
+| Arrhythmia                                | KNeighborsClassifier      | 0.5774396135265699             | 0.014886832236702835          | {'classifier__n_neighbors': 7, 'classifier__weights': 'uniform'}  | 27.50302004814148    |
+| Multiple Features                         | KNeighborsClassifier      | 0.8055                         | 0.03012059096365805           | {'classifier__n_neighbors': 7, 'classifier__weights': 'distance'} | 21.490187883377075   |
+| Australian                                | KNeighborsClassifier      | 0.8565217391304347             | 0.035172930723222             | {'classifier__n_neighbors': 7, 'classifier__weights': 'distance'} | 1.9750316143035889   |
+| DNA                                       | KNeighborsClassifier      | 0.83648883105617               | 0.017621144879413367          | {'classifier__n_neighbors': 7, 'classifier__weights': 'distance'} | 23.80613112449646    |
+| Wine                                      | KNeighborsClassifier      | 0.6196078431372549             | 0.09941518087232178           | {'classifier__n_neighbors': 7, 'classifier__weights': 'distance'} | 1.3791205883026123   |
+| Vehicle                                   | KNeighborsClassifier      | 0.9172969187675069             | 0.025882129365932635          | {'classifier__n_neighbors': 5, 'classifier__weights': 'uniform'}  | 1.825406551361084    |
+| Waveform                                  | KNeighborsClassifier      | 0.6298000000000001             | 0.020619408332927518          | {'classifier__n_neighbors': 7, 'classifier__weights': 'uniform'}  | 11.706374883651733   |
+| Hillvalley                                | KNeighborsClassifier      | 0.49918710201869665            | 0.006332217868819316          | {'classifier__n_neighbors': 5, 'classifier__weights': 'uniform'}  | 9.176762819290161    |
+| Sonar                                     | KNeighborsClassifier      | 0.5238095238095238             | 0.08972116038769891           | {'classifier__n_neighbors': 5, 'classifier__weights': 'uniform'}  | 4.245889663696289    |
 ---
 
 ## 🔍 Project Highlights
