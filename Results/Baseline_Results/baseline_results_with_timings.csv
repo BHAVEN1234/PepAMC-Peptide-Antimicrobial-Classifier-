@@ -1,0 +1,17 @@
+Dataset,Framework,AUC,AUC_STD,Best_Params,Time_Taken
+Iris,KNeighborsClassifier,0.8533333333333335,0.07180219742846006,"{'classifier__n_neighbors': 7, 'classifier__weights': 'distance'}",2.8770437240600586
+WBDC (Breast Cancer Wisconsin Diagnostic),KNeighborsClassifier,0.6854323308270677,0.04093269008836167,"{'classifier__n_neighbors': 7, 'classifier__weights': 'uniform'}",9.412885427474976
+Spambase,KNeighborsClassifier,0.7989625577666699,0.024622408860984428,"{'classifier__n_neighbors': 5, 'classifier__weights': 'distance'}",27.55205273628235
+Heart,KNeighborsClassifier,0.8191883116883115,0.045507263028688995,"{'classifier__n_neighbors': 7, 'classifier__weights': 'uniform'}",1.1435601711273193
+Glass,KNeighborsClassifier,0.6683982683982684,0.06734211156108369,"{'classifier__n_neighbors': 7, 'classifier__weights': 'uniform'}",1.129058837890625
+WBC (Breast Cancer Wisconsin Original),KNeighborsClassifier,0.95,0.03683941988065038,"{'classifier__n_neighbors': 3, 'classifier__weights': 'uniform'}",1.5516104698181152
+Ionosphere,KNeighborsClassifier,0.6955555555555556,0.1269956343992288,"{'classifier__n_neighbors': 3, 'classifier__weights': 'uniform'}",2.868738889694214
+Arrhythmia,KNeighborsClassifier,0.5774396135265699,0.014886832236702835,"{'classifier__n_neighbors': 7, 'classifier__weights': 'uniform'}",27.50302004814148
+Multiple Features,KNeighborsClassifier,0.8055,0.03012059096365805,"{'classifier__n_neighbors': 7, 'classifier__weights': 'distance'}",21.490187883377075
+Australian,KNeighborsClassifier,0.8565217391304347,0.035172930723222,"{'classifier__n_neighbors': 7, 'classifier__weights': 'distance'}",1.9750316143035889
+DNA,KNeighborsClassifier,0.83648883105617,0.017621144879413367,"{'classifier__n_neighbors': 7, 'classifier__weights': 'distance'}",23.80613112449646
+Wine,KNeighborsClassifier,0.6196078431372549,0.09941518087232178,"{'classifier__n_neighbors': 7, 'classifier__weights': 'distance'}",1.3791205883026123
+Vehicle,KNeighborsClassifier,0.9172969187675069,0.025882129365932635,"{'classifier__n_neighbors': 5, 'classifier__weights': 'uniform'}",1.825406551361084
+Waveform,KNeighborsClassifier,0.6298000000000001,0.020619408332927518,"{'classifier__n_neighbors': 7, 'classifier__weights': 'uniform'}",11.706374883651733
+Hillvalley,KNeighborsClassifier,0.49918710201869665,0.006332217868819316,"{'classifier__n_neighbors': 5, 'classifier__weights': 'uniform'}",9.176762819290161
+Sonar,KNeighborsClassifier,0.5238095238095238,0.08972116038769891,"{'classifier__n_neighbors': 5, 'classifier__weights': 'uniform'}",4.245889663696289

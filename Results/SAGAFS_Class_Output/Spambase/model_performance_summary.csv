@@ -1,0 +1,2 @@
+Dataset,Framework,AUC,AUC_STD,Best_Params,Time_Taken
+Spambase,SAGAFS_GA,0.8971965727234104,0.030415043424902814,"{'n_neighbors': 5, 'weights': 'distance'}",68.00923013687134

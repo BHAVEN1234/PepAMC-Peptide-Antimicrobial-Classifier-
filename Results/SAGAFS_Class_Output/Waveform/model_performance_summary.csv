@@ -1,0 +1,2 @@
+Dataset,Framework,AUC,AUC_STD,Best_Params,Time_Taken
+Waveform,SAGAFS_GA,0.8694000000000001,0.006590902821313638,"{'n_neighbors': 7, 'weights': 'uniform'}",75.0265486240387

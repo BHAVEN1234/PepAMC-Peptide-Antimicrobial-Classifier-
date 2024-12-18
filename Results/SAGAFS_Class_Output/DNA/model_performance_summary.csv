@@ -1,0 +1,2 @@
+Dataset,Framework,AUC,AUC_STD,Best_Params,Time_Taken
+DNA,SAGAFS_GA,0.8512270980251276,0.006467247827135598,"{'n_neighbors': 7, 'weights': 'distance'}",55.69214153289795

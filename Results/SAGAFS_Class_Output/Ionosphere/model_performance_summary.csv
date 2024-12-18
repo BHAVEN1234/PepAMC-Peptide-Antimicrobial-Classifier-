@@ -1,0 +1,2 @@
+Dataset,Framework,AUC,AUC_STD,Best_Params,Time_Taken
+Ionosphere,SAGAFS_GA,0.8890140845070423,0.04687266870106022,"{'n_neighbors': 3, 'weights': 'uniform'}",11.459571838378906

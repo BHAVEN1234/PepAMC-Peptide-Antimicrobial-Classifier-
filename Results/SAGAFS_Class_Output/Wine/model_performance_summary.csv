@@ -1,0 +1,2 @@
+Dataset,Framework,AUC,AUC_STD,Best_Params,Time_Taken
+Wine,SAGAFS_GA,0.9442857142857143,0.07237538268740551,"{'n_neighbors': 7, 'weights': 'distance'}",12.088903903961182

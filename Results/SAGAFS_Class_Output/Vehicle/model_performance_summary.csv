@@ -1,0 +1,2 @@
+Dataset,Framework,AUC,AUC_STD,Best_Params,Time_Taken
+Vehicle,SAGAFS_GA,0.971667246780369,0.01591947002881827,"{'n_neighbors': 3, 'weights': 'distance'}",28.830381631851196
