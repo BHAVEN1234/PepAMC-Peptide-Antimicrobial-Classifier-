@@ -54,9 +54,6 @@ saga_fs.fit(X, y)
 saga_fs.plot_fitness_over_generations()
 saga_fs.plot_heatmap(saga_fs.best_individual, [f"Feature_{i}" for i in range(X.shape[1])])
 ```
-
-This script provides a systematic approach to evaluating baseline models across multiple datasets. Below is a breakdown of its components:
-
 ### 1. Dataset Handling
 
 The `datasets` list contains popular datasets loaded either via `sklearn` or `OpenML`. Each dataset is processed with error handling to ensure compatibility.
