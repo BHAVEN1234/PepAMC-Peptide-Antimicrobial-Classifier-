@@ -1,7 +1,7 @@
 # 🧬 SAGAFS-GA: Supercharged Feature Selection for Machine Learning 🚀
 
 ## 🚀 Overview
-SAGAFS-GA is a cutting-edge feature selection algorithm that combines the power of Simulated Annealing (SA) with Genetic Algorithms (GA) to supercharge your machine learning models. This innovative tool optimizes feature subsets, enhancing classification performance while keeping your models lean and efficient.
+SAGAFS-GA is a state-of-the-art feature selection algorithm that leverages Simulated Annealing (SA) and Genetic Algorithms (GA) to optimize machine learning models. It enhances classification performance by dynamically selecting impactful features, ensuring your models remain efficient and accurate.
 
 ---
 
@@ -12,6 +12,8 @@ SAGAFS-GA is a cutting-edge feature selection algorithm that combines the power 
 - 🔌 **Flexible Estimator Support:** Works with a wide range of scikit-learn classifiers.
 - 📊 **Advanced Performance Metrics:** Evaluates models using accuracy, Matthews Correlation Coefficient, and F1-score.
 - 📈 **Insightful Visualizations:** Plots fitness evolution and feature importance heatmaps.
+- 💾 Generation Tracking: Saves results and best individuals from each generation in CSV format.
+- 📂 Custom Run Directory Structure: Automatically organizes results by dataset and run.
 
 ---
 
@@ -21,6 +23,8 @@ SAGAFS-GA is a cutting-edge feature selection algorithm that combines the power 
 - 🔢 **numpy**: For numerical operations.
 - 🤖 **scikit-learn**: For machine learning model evaluation and dataset handling.
 - 🖋 **tabulate**: For generating formatted tables.
+- 📈 matplotlib: Visualization of results.
+- 💼 os and csv: File management and result storage.
 
 ---
 
@@ -44,13 +48,14 @@ saga_fs = SAGAFS_GA(
     param_grid={
         'n_neighbors': [3, 5, 7],
         'weights': ['uniform', 'distance']
-    }
+    },
+    lambda_val=0.01
 )
 
-# Unleash the power of SAGAFS-GA
-saga_fs.fit(X, y)
+# Fit the model and optimize features
+saga_fs.fit(X, y, dataset_name="Iris", output_dir="results")
 
-# Visualize the magic
+# Visualize results
 saga_fs.plot_fitness_over_generations()
 saga_fs.plot_heatmap(saga_fs.best_individual, [f"Feature_{i}" for i in range(X.shape[1])])
 ```
@@ -60,7 +65,8 @@ saga_fs.plot_heatmap(saga_fs.best_individual, [f"Feature_{i}" for i in range(X.s
 - 🧬 **SSOCF Crossover:** Sophisticated crossover strategy for optimal feature combination.
 - 🔄 **Dynamic Rate Adaptation:** Auto-adjusts mutation and crossover rates for peak performance.
 - 👑 **Elitism:** Preserves the best solutions across generations.
-- 🧹 **Smart Preprocessing:** Handles various data types and manages missing values automatically
+- 🧹 **Smart Preprocessing:** Handles various data types and manages missing values automatically.
+- 📂 Results Saving: Tracks generation-wise performance in a structured directory hierarchy.
 ---
 ## 📊 Supported Datasets
 SAGAFS-GA has been tested on a variety of datasets, including:
@@ -85,6 +91,12 @@ datasets = [
     ("Custom Dataset", lambda: fetch_openml(name="custom", version=1))
 ]
 ```
+Results Storage
+Each run's results are stored under results/<dataset_name>/<run_number>. CSV files include:
+
+generation_results.csv: Tracks generation-wise average and best fitness scores.
+model_performance_summary.csv: Summarizes performance metrics of the best individual.
+
 ## 🔍 Example Usage
 
 To run the evaluation:
